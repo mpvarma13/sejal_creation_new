@@ -1,0 +1,154 @@
+{
+  "theme": "Light",
+  "archetype": "5 (Luxury - Light Variant)",
+  "brand": {
+    "name": "Sejal Creation",
+    "description": "Premium E-commerce and Bridal Jewellery Rental Services",
+    "contact_email": "sejalcreation@gmail.com",
+    "whatsapp_number": "+91 7262080228",
+    "cod_pincode": "443101"
+  },
+  "typography": {
+    "heading_font": "Cinzel, serif",
+    "body_font": "Outfit, sans-serif",
+    "accent_font": "Italiana, serif",
+    "scales": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-none font-medium",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight leading-snug font-medium",
+      "h3": "text-xl sm:text-2xl leading-snug font-medium",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm tracking-wide",
+      "overline": "text-xs uppercase tracking-[0.2em] font-semibold"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#FAF9F6",
+      "secondary": "#F5F3ED",
+      "tertiary": "#EBE8E0"
+    },
+    "text": {
+      "primary": "#1A1814",
+      "secondary": "#4A463D",
+      "muted": "#7A7569"
+    },
+    "brand": {
+      "gold": "#D4AF37",
+      "deep_gold": "#B8860B",
+      "maroon": "#6E0D25",
+      "rose_gold": "#B76E79"
+    },
+    "ui": {
+      "border": "#E5E0D8",
+      "border_gold": "rgba(212, 175, 55, 0.3)",
+      "error": "#991B1B",
+      "success": "#166534"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-6 lg:px-12",
+    "section_spacing": "py-16 sm:py-24 lg:py-32",
+    "grid_gap": "gap-6 lg:gap-10",
+    "border_radius": "rounded-none sm:rounded-sm",
+    "layout_modes": {
+      "marketing": "Asymmetrical grids, generous whitespace, overlapping elements",
+      "dashboard": "Dense, crisp borders, solid backgrounds (no glass for data clarity), max 4px radius"
+    }
+  },
+  "surfaces_and_shadows": {
+    "cards": "bg-[#FAF9F6] border border-[#E5E0D8] shadow-sm transition-all duration-300 hover:shadow-md hover:border-[#D4AF37]/50",
+    "glass": "backdrop-blur-xl bg-[#FAF9F6]/80 border border-white/40 shadow-[0_8px_32px_rgba(0,0,0,0.04)]",
+    "navigation": "Sticky header with crystal glassmorphism effect; Mobile bottom navigation fixed at bottom with solid background and top border"
+  },
+  "components_strategy": {
+    "buttons": {
+      "primary": "bg-[#6E0D25] text-white hover:bg-[#800000] transition-colors rounded-none px-8 py-3 uppercase tracking-wider text-sm",
+      "secondary": "bg-transparent border-2 border-[#D4AF37] text-[#1A1814] hover:bg-[#D4AF37] hover:text-white transition-colors rounded-none px-8 py-3 uppercase tracking-wider text-sm",
+      "whatsapp_floating": "fixed bottom-20 sm:bottom-8 right-4 sm:right-8 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50 flex items-center justify-center"
+    },
+    "inputs": "bg-transparent border-b border-[#D4AF37]/50 focus:border-[#D4AF37] focus:ring-0 rounded-none px-0 py-2 placeholder-[#7A7569]",
+    "product_card": "group relative overflow-hidden bg-white border border-[#E5E0D8] p-4 flex flex-col",
+    "badges": "bg-[#F5F3ED] text-[#6E0D25] text-xs uppercase tracking-wider px-2 py-1 font-medium border border-[#E5E0D8]"
+  },
+  "animations_and_interactions": {
+    "hover": "Subtle scale up (1.02) for product images, border color shift to gold, background tint for list items",
+    "page_transition": "Fade in with slight upward translation",
+    "product_zoom": "On hover, the product image should scale to 1.1 inside a hidden overflow container",
+    "marquee": "Use for 'Premium Collections | Bridal Sets | Traditional' in a slow, elegant, low-contrast serif ribbon"
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "Thin stroke (1.5px), elegant, sharp"
+  },
+  "media": {
+    "hero_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1617633150878-7df1d12a9a57?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHw0fHxJbmRpYW4lMjBicmlkYWwlMjBqZXdlbGxlcnklMjBzZXQlMjB0cmFkaXRpb25hbCUyMGdvbGR8ZW58MHx8fHwxNzgyMjgxOTMyfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Woman in red and gold sari dress with heavy bridal jewellery",
+        "category": "hero_banner"
+      },
+      {
+        "url": "https://images.pexels.com/photos/35059564/pexels-photo-35059564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Luxurious Indian bridal jewelry with gold necklaces and bangles elegantly laid out on a rich red saree.",
+        "category": "hero_rental"
+      }
+    ],
+    "category_images": [
+      {
+        "url": "https://images.pexels.com/photos/13924051/pexels-photo-13924051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Necklace Sets",
+        "category": "category_necklace"
+      },
+      {
+        "url": "https://images.pexels.com/photos/37485309/pexels-photo-37485309.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Bangles",
+        "category": "category_bangles"
+      },
+      {
+        "url": "https://images.pexels.com/photos/37601639/pexels-photo-37601639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Earrings",
+        "category": "category_earrings"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1611107683227-e9060eccd846?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTB8MHwxfHNlYXJjaHwxfHxnb2xkJTIwcmluZyUyMGJhbmdsZXMlMjBqZXdlbHJ5fGVufDB8fHx8MTc4MjI4MTkzMnww&ixlib=rb-4.1.0&q=85",
+        "description": "Rings",
+        "category": "category_rings"
+      }
+    ],
+    "product_mockups": [
+      {
+        "url": "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBicmlkYWwlMjBqZXdlbGxlcnklMjBzZXQlMjB0cmFkaXRpb25hbCUyMGdvbGR8ZW58MHx8fHwxNzgyMjgxOTMyfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Bridal Set product mockup",
+        "category": "product_bridal"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1651160670627-2896ddf7822f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB0cmFkaXRpb25hbCUyMGVhcnJpbmdzJTIwZ29sZHxlbnwwfHx8fDE3ODIyODE5Mzd8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Gold traditional earrings",
+        "category": "product_earrings"
+      }
+    ],
+    "avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1740252117013-4fb21771e7ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwzfHxhZG1pbiUyMGRhc2hib2FyZCUyMHVzZXIlMjBhdmF0YXJ8ZW58MHx8fHwxNzgyMjgxOTM4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Admin Avatar",
+        "category": "admin_avatar"
+      }
+    ]
+  },
+  "specific_features": {
+    "checkout": "PIN code based COD check (Only available for 443101), Manual QR payment upload for others",
+    "rental": "Display security deposit distinctly, calendar date selection for rental duration",
+    "admin": "Dashboard with KPI cards, charts (use Recharts), order verification, product CRUD, and rental management.",
+    "testing": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case."
+  },
+  "instructions_to_main_agent": [
+    "Strictly follow the color palette: Ivory base, deep gold, maroon accents. DO NOT use generic blue or purple.",
+    "Use Cinzel (or a similar elegant serif) for all headings. Ensure body text uses Outfit.",
+    "Implement a mobile bottom navigation bar with icons for Home, Categories, Rental, Cart, Profile.",
+    "Add a sticky WhatsApp floating button on all pages routing to +91 7262080228.",
+    "For the E-commerce gallery and product pages, employ generous whitespace and subtle borders.",
+    "Implement product zoom functionality on product detail pages.",
+    "Ensure 'data-testid' is added to all interactive elements for robust testing."
+  ]
+}
