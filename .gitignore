@@ -50,6 +50,7 @@ dump.rdb
 __pycache__/
 *pyc*
 venv/
+venv*/
 .venv/
 
 # Development tools
